@@ -1,512 +1,1283 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		9ADB084A1CE8CC980008354D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADB08491CE8CC980008354D /* AppDelegate.swift */; };
-		9ADB084C1CE8CC980008354D /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADB084B1CE8CC980008354D /* MasterViewController.swift */; };
-		9ADB084E1CE8CC980008354D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADB084D1CE8CC980008354D /* DetailViewController.swift */; };
-		9ADB08511CE8CC980008354D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ADB084F1CE8CC980008354D /* Main.storyboard */; };
-		9ADB08531CE8CC980008354D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9ADB08521CE8CC980008354D /* Assets.xcassets */; };
-		9ADB08561CE8CC980008354D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9ADB08541CE8CC980008354D /* LaunchScreen.storyboard */; };
-		9ADB08611CE8CC980008354D /* testRealm2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADB08601CE8CC980008354D /* testRealm2Tests.swift */; };
-		9ADB086C1CE8CC980008354D /* testRealm2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ADB086B1CE8CC980008354D /* testRealm2UITests.swift */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		9ADB085D1CE8CC980008354D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9ADB083E1CE8CC980008354D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9ADB08451CE8CC980008354D;
-			remoteInfo = testRealm2;
-		};
-		9ADB08681CE8CC980008354D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9ADB083E1CE8CC980008354D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9ADB08451CE8CC980008354D;
-			remoteInfo = testRealm2;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		9ADB08461CE8CC980008354D /* testRealm2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testRealm2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9ADB08491CE8CC980008354D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9ADB084B1CE8CC980008354D /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		9ADB084D1CE8CC980008354D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		9ADB08501CE8CC980008354D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9ADB08521CE8CC980008354D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9ADB08551CE8CC980008354D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9ADB08571CE8CC980008354D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9ADB085C1CE8CC980008354D /* testRealm2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testRealm2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9ADB08601CE8CC980008354D /* testRealm2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testRealm2Tests.swift; sourceTree = "<group>"; };
-		9ADB08621CE8CC980008354D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9ADB08671CE8CC980008354D /* testRealm2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testRealm2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9ADB086B1CE8CC980008354D /* testRealm2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testRealm2UITests.swift; sourceTree = "<group>"; };
-		9ADB086D1CE8CC980008354D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		9ADB08431CE8CC980008354D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9ADB08591CE8CC980008354D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9ADB08641CE8CC980008354D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		9ADB083D1CE8CC980008354D = {
-			isa = PBXGroup;
-			children = (
-				9ADB08481CE8CC980008354D /* testRealm2 */,
-				9ADB085F1CE8CC980008354D /* testRealm2Tests */,
-				9ADB086A1CE8CC980008354D /* testRealm2UITests */,
-				9ADB08471CE8CC980008354D /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		9ADB08471CE8CC980008354D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				9ADB08461CE8CC980008354D /* testRealm2.app */,
-				9ADB085C1CE8CC980008354D /* testRealm2Tests.xctest */,
-				9ADB08671CE8CC980008354D /* testRealm2UITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		9ADB08481CE8CC980008354D /* testRealm2 */ = {
-			isa = PBXGroup;
-			children = (
-				9ADB08491CE8CC980008354D /* AppDelegate.swift */,
-				9ADB084B1CE8CC980008354D /* MasterViewController.swift */,
-				9ADB084D1CE8CC980008354D /* DetailViewController.swift */,
-				9ADB084F1CE8CC980008354D /* Main.storyboard */,
-				9ADB08521CE8CC980008354D /* Assets.xcassets */,
-				9ADB08541CE8CC980008354D /* LaunchScreen.storyboard */,
-				9ADB08571CE8CC980008354D /* Info.plist */,
-			);
-			path = testRealm2;
-			sourceTree = "<group>";
-		};
-		9ADB085F1CE8CC980008354D /* testRealm2Tests */ = {
-			isa = PBXGroup;
-			children = (
-				9ADB08601CE8CC980008354D /* testRealm2Tests.swift */,
-				9ADB08621CE8CC980008354D /* Info.plist */,
-			);
-			path = testRealm2Tests;
-			sourceTree = "<group>";
-		};
-		9ADB086A1CE8CC980008354D /* testRealm2UITests */ = {
-			isa = PBXGroup;
-			children = (
-				9ADB086B1CE8CC980008354D /* testRealm2UITests.swift */,
-				9ADB086D1CE8CC980008354D /* Info.plist */,
-			);
-			path = testRealm2UITests;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		9ADB08451CE8CC980008354D /* testRealm2 */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9ADB08701CE8CC980008354D /* Build configuration list for PBXNativeTarget "testRealm2" */;
-			buildPhases = (
-				9ADB08421CE8CC980008354D /* Sources */,
-				9ADB08431CE8CC980008354D /* Frameworks */,
-				9ADB08441CE8CC980008354D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = testRealm2;
-			productName = testRealm2;
-			productReference = 9ADB08461CE8CC980008354D /* testRealm2.app */;
-			productType = "com.apple.product-type.application";
-		};
-		9ADB085B1CE8CC980008354D /* testRealm2Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9ADB08731CE8CC980008354D /* Build configuration list for PBXNativeTarget "testRealm2Tests" */;
-			buildPhases = (
-				9ADB08581CE8CC980008354D /* Sources */,
-				9ADB08591CE8CC980008354D /* Frameworks */,
-				9ADB085A1CE8CC980008354D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9ADB085E1CE8CC980008354D /* PBXTargetDependency */,
-			);
-			name = testRealm2Tests;
-			productName = testRealm2Tests;
-			productReference = 9ADB085C1CE8CC980008354D /* testRealm2Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		9ADB08661CE8CC980008354D /* testRealm2UITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9ADB08761CE8CC980008354D /* Build configuration list for PBXNativeTarget "testRealm2UITests" */;
-			buildPhases = (
-				9ADB08631CE8CC980008354D /* Sources */,
-				9ADB08641CE8CC980008354D /* Frameworks */,
-				9ADB08651CE8CC980008354D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9ADB08691CE8CC980008354D /* PBXTargetDependency */,
-			);
-			name = testRealm2UITests;
-			productName = testRealm2UITests;
-			productReference = 9ADB08671CE8CC980008354D /* testRealm2UITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		9ADB083E1CE8CC980008354D /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
-				ORGANIZATIONNAME = IkkiTakahashi;
-				TargetAttributes = {
-					9ADB08451CE8CC980008354D = {
-						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = N6HCZ324GJ;
-					};
-					9ADB085B1CE8CC980008354D = {
-						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = N6HCZ324GJ;
-						TestTargetID = 9ADB08451CE8CC980008354D;
-					};
-					9ADB08661CE8CC980008354D = {
-						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = N6HCZ324GJ;
-						TestTargetID = 9ADB08451CE8CC980008354D;
-					};
-				};
-			};
-			buildConfigurationList = 9ADB08411CE8CC980008354D /* Build configuration list for PBXProject "testRealm2" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-				Base,
-			);
-			mainGroup = 9ADB083D1CE8CC980008354D;
-			productRefGroup = 9ADB08471CE8CC980008354D /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				9ADB08451CE8CC980008354D /* testRealm2 */,
-				9ADB085B1CE8CC980008354D /* testRealm2Tests */,
-				9ADB08661CE8CC980008354D /* testRealm2UITests */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		9ADB08441CE8CC980008354D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9ADB08561CE8CC980008354D /* LaunchScreen.storyboard in Resources */,
-				9ADB08531CE8CC980008354D /* Assets.xcassets in Resources */,
-				9ADB08511CE8CC980008354D /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9ADB085A1CE8CC980008354D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9ADB08651CE8CC980008354D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		9ADB08421CE8CC980008354D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9ADB084E1CE8CC980008354D /* DetailViewController.swift in Sources */,
-				9ADB084C1CE8CC980008354D /* MasterViewController.swift in Sources */,
-				9ADB084A1CE8CC980008354D /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9ADB08581CE8CC980008354D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9ADB08611CE8CC980008354D /* testRealm2Tests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9ADB08631CE8CC980008354D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9ADB086C1CE8CC980008354D /* testRealm2UITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		9ADB085E1CE8CC980008354D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9ADB08451CE8CC980008354D /* testRealm2 */;
-			targetProxy = 9ADB085D1CE8CC980008354D /* PBXContainerItemProxy */;
-		};
-		9ADB08691CE8CC980008354D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9ADB08451CE8CC980008354D /* testRealm2 */;
-			targetProxy = 9ADB08681CE8CC980008354D /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		9ADB084F1CE8CC980008354D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9ADB08501CE8CC980008354D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9ADB08541CE8CC980008354D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9ADB08551CE8CC980008354D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
-/* Begin XCBuildConfiguration section */
-		9ADB086E1CE8CC980008354D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Debug;
-		};
-		9ADB086F1CE8CC980008354D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		9ADB08711CE8CC980008354D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = testRealm2/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.co.ikkitakahashi.testRealm2;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		9ADB08721CE8CC980008354D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = testRealm2/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.co.ikkitakahashi.testRealm2;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		9ADB08741CE8CC980008354D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = testRealm2Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.co.ikkitakahashi.testRealm2Tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testRealm2.app/testRealm2";
-			};
-			name = Debug;
-		};
-		9ADB08751CE8CC980008354D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = testRealm2Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.co.ikkitakahashi.testRealm2Tests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testRealm2.app/testRealm2";
-			};
-			name = Release;
-		};
-		9ADB08771CE8CC980008354D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = testRealm2UITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.co.ikkitakahashi.testRealm2UITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = testRealm2;
-			};
-			name = Debug;
-		};
-		9ADB08781CE8CC980008354D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = testRealm2UITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.co.ikkitakahashi.testRealm2UITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = testRealm2;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		9ADB08411CE8CC980008354D /* Build configuration list for PBXProject "testRealm2" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9ADB086E1CE8CC980008354D /* Debug */,
-				9ADB086F1CE8CC980008354D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9ADB08701CE8CC980008354D /* Build configuration list for PBXNativeTarget "testRealm2" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9ADB08711CE8CC980008354D /* Debug */,
-				9ADB08721CE8CC980008354D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		9ADB08731CE8CC980008354D /* Build configuration list for PBXNativeTarget "testRealm2Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9ADB08741CE8CC980008354D /* Debug */,
-				9ADB08751CE8CC980008354D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		9ADB08761CE8CC980008354D /* Build configuration list for PBXNativeTarget "testRealm2UITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9ADB08771CE8CC980008354D /* Debug */,
-				9ADB08781CE8CC980008354D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = 9ADB083E1CE8CC980008354D /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>25D1B60F891B81DB8861F3A6</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Pods_testRealm2.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>354FBCAB1B5244499FF0C877</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-testRealm2Tests/Pods-testRealm2Tests-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>422F467118CF02E93EC0D5B4</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Pods_testRealm2Tests.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>4FCF58C67BAD2C9E4E16CAEE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-testRealm2.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-testRealm2/Pods-testRealm2.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>59DB62FC11B1FDFCD154ED04</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>7BF2D7321D01BE70889AB40A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-testRealm2.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-testRealm2/Pods-testRealm2.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>887362F6369561BB0FA84D5D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-testRealm2Tests.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-testRealm2Tests/Pods-testRealm2Tests.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>945C14E8B59CF1BBEA4C70BA</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-testRealm2/Pods-testRealm2-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>970C921159283C8EC40AFA2E</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Embed Pods Frameworks</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-testRealm2/Pods-testRealm2-frameworks.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>9ADB083D1CE8CC980008354D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>9ADB08481CE8CC980008354D</string>
+				<string>9ADB085F1CE8CC980008354D</string>
+				<string>9ADB086A1CE8CC980008354D</string>
+				<string>9ADB08471CE8CC980008354D</string>
+				<string>E7490A76753761A465D26FEF</string>
+				<string>A17328D169D4C29106AE1CF6</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9ADB083E1CE8CC980008354D</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastSwiftUpdateCheck</key>
+				<string>0730</string>
+				<key>LastUpgradeCheck</key>
+				<string>0730</string>
+				<key>ORGANIZATIONNAME</key>
+				<string>IkkiTakahashi</string>
+				<key>TargetAttributes</key>
+				<dict>
+					<key>9ADB08451CE8CC980008354D</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>7.3.1</string>
+						<key>DevelopmentTeam</key>
+						<string>N6HCZ324GJ</string>
+					</dict>
+					<key>9ADB085B1CE8CC980008354D</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>7.3.1</string>
+						<key>DevelopmentTeam</key>
+						<string>N6HCZ324GJ</string>
+						<key>TestTargetID</key>
+						<string>9ADB08451CE8CC980008354D</string>
+					</dict>
+					<key>9ADB08661CE8CC980008354D</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>7.3.1</string>
+						<key>DevelopmentTeam</key>
+						<string>N6HCZ324GJ</string>
+						<key>TestTargetID</key>
+						<string>9ADB08451CE8CC980008354D</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>9ADB08411CE8CC980008354D</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+				<string>Base</string>
+			</array>
+			<key>mainGroup</key>
+			<string>9ADB083D1CE8CC980008354D</string>
+			<key>productRefGroup</key>
+			<string>9ADB08471CE8CC980008354D</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>9ADB08451CE8CC980008354D</string>
+				<string>9ADB085B1CE8CC980008354D</string>
+				<string>9ADB08661CE8CC980008354D</string>
+			</array>
+		</dict>
+		<key>9ADB08411CE8CC980008354D</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>9ADB086E1CE8CC980008354D</string>
+				<string>9ADB086F1CE8CC980008354D</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>9ADB08421CE8CC980008354D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>9ADB084E1CE8CC980008354D</string>
+				<string>9ADB084C1CE8CC980008354D</string>
+				<string>9ADB084A1CE8CC980008354D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>9ADB08431CE8CC980008354D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>EE4C082D19A18EC2B4CC47C1</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>9ADB08441CE8CC980008354D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>9ADB08561CE8CC980008354D</string>
+				<string>9ADB08531CE8CC980008354D</string>
+				<string>9ADB08511CE8CC980008354D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>9ADB08451CE8CC980008354D</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>9ADB08701CE8CC980008354D</string>
+			<key>buildPhases</key>
+			<array>
+				<string>F606C68E72E1D2AE705F0C85</string>
+				<string>9ADB08421CE8CC980008354D</string>
+				<string>9ADB08431CE8CC980008354D</string>
+				<string>9ADB08441CE8CC980008354D</string>
+				<string>970C921159283C8EC40AFA2E</string>
+				<string>945C14E8B59CF1BBEA4C70BA</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>testRealm2</string>
+			<key>productName</key>
+			<string>testRealm2</string>
+			<key>productReference</key>
+			<string>9ADB08461CE8CC980008354D</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>9ADB08461CE8CC980008354D</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>testRealm2.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>9ADB08471CE8CC980008354D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>9ADB08461CE8CC980008354D</string>
+				<string>9ADB085C1CE8CC980008354D</string>
+				<string>9ADB08671CE8CC980008354D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9ADB08481CE8CC980008354D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>9ADB08491CE8CC980008354D</string>
+				<string>9ADB084B1CE8CC980008354D</string>
+				<string>9ADB084D1CE8CC980008354D</string>
+				<string>9ADB084F1CE8CC980008354D</string>
+				<string>9ADB08521CE8CC980008354D</string>
+				<string>9ADB08541CE8CC980008354D</string>
+				<string>9ADB08571CE8CC980008354D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>testRealm2</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9ADB08491CE8CC980008354D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>AppDelegate.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9ADB084A1CE8CC980008354D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9ADB08491CE8CC980008354D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9ADB084B1CE8CC980008354D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>MasterViewController.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9ADB084C1CE8CC980008354D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9ADB084B1CE8CC980008354D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9ADB084D1CE8CC980008354D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>DetailViewController.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9ADB084E1CE8CC980008354D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9ADB084D1CE8CC980008354D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9ADB084F1CE8CC980008354D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>9ADB08501CE8CC980008354D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9ADB08501CE8CC980008354D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9ADB08511CE8CC980008354D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9ADB084F1CE8CC980008354D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9ADB08521CE8CC980008354D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>folder.assetcatalog</string>
+			<key>path</key>
+			<string>Assets.xcassets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9ADB08531CE8CC980008354D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9ADB08521CE8CC980008354D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9ADB08541CE8CC980008354D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>9ADB08551CE8CC980008354D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>LaunchScreen.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9ADB08551CE8CC980008354D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/LaunchScreen.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9ADB08561CE8CC980008354D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9ADB08541CE8CC980008354D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9ADB08571CE8CC980008354D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9ADB08581CE8CC980008354D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>9ADB08611CE8CC980008354D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>9ADB08591CE8CC980008354D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>ABB049FD41335C9559913FF2</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>9ADB085A1CE8CC980008354D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>9ADB085B1CE8CC980008354D</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>9ADB08731CE8CC980008354D</string>
+			<key>buildPhases</key>
+			<array>
+				<string>59DB62FC11B1FDFCD154ED04</string>
+				<string>9ADB08581CE8CC980008354D</string>
+				<string>9ADB08591CE8CC980008354D</string>
+				<string>9ADB085A1CE8CC980008354D</string>
+				<string>CAB953F8659A493AAD6666D1</string>
+				<string>354FBCAB1B5244499FF0C877</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>9ADB085E1CE8CC980008354D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>testRealm2Tests</string>
+			<key>productName</key>
+			<string>testRealm2Tests</string>
+			<key>productReference</key>
+			<string>9ADB085C1CE8CC980008354D</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.unit-test</string>
+		</dict>
+		<key>9ADB085C1CE8CC980008354D</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>testRealm2Tests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>9ADB085D1CE8CC980008354D</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>9ADB083E1CE8CC980008354D</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>9ADB08451CE8CC980008354D</string>
+			<key>remoteInfo</key>
+			<string>testRealm2</string>
+		</dict>
+		<key>9ADB085E1CE8CC980008354D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>9ADB08451CE8CC980008354D</string>
+			<key>targetProxy</key>
+			<string>9ADB085D1CE8CC980008354D</string>
+		</dict>
+		<key>9ADB085F1CE8CC980008354D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>9ADB08601CE8CC980008354D</string>
+				<string>9ADB08621CE8CC980008354D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>testRealm2Tests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9ADB08601CE8CC980008354D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>testRealm2Tests.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9ADB08611CE8CC980008354D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9ADB08601CE8CC980008354D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9ADB08621CE8CC980008354D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9ADB08631CE8CC980008354D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>9ADB086C1CE8CC980008354D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>9ADB08641CE8CC980008354D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>9ADB08651CE8CC980008354D</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>9ADB08661CE8CC980008354D</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>9ADB08761CE8CC980008354D</string>
+			<key>buildPhases</key>
+			<array>
+				<string>9ADB08631CE8CC980008354D</string>
+				<string>9ADB08641CE8CC980008354D</string>
+				<string>9ADB08651CE8CC980008354D</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>9ADB08691CE8CC980008354D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>testRealm2UITests</string>
+			<key>productName</key>
+			<string>testRealm2UITests</string>
+			<key>productReference</key>
+			<string>9ADB08671CE8CC980008354D</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.ui-testing</string>
+		</dict>
+		<key>9ADB08671CE8CC980008354D</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>testRealm2UITests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>9ADB08681CE8CC980008354D</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>9ADB083E1CE8CC980008354D</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>9ADB08451CE8CC980008354D</string>
+			<key>remoteInfo</key>
+			<string>testRealm2</string>
+		</dict>
+		<key>9ADB08691CE8CC980008354D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>9ADB08451CE8CC980008354D</string>
+			<key>targetProxy</key>
+			<string>9ADB08681CE8CC980008354D</string>
+		</dict>
+		<key>9ADB086A1CE8CC980008354D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>9ADB086B1CE8CC980008354D</string>
+				<string>9ADB086D1CE8CC980008354D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>testRealm2UITests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9ADB086B1CE8CC980008354D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>testRealm2UITests.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9ADB086C1CE8CC980008354D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9ADB086B1CE8CC980008354D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9ADB086D1CE8CC980008354D</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9ADB086E1CE8CC980008354D</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>ENABLE_TESTABILITY</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.3</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SWIFT_OPTIMIZATION_LEVEL</key>
+				<string>-Onone</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>9ADB086F1CE8CC980008354D</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES_ERROR</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.3</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>9ADB08701CE8CC980008354D</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>9ADB08711CE8CC980008354D</string>
+				<string>9ADB08721CE8CC980008354D</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>9ADB08711CE8CC980008354D</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>4FCF58C67BAD2C9E4E16CAEE</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>INFOPLIST_FILE</key>
+				<string>testRealm2/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>jp.co.ikkitakahashi.testRealm2</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>9ADB08721CE8CC980008354D</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>7BF2D7321D01BE70889AB40A</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>INFOPLIST_FILE</key>
+				<string>testRealm2/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>jp.co.ikkitakahashi.testRealm2</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>9ADB08731CE8CC980008354D</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>9ADB08741CE8CC980008354D</string>
+				<string>9ADB08751CE8CC980008354D</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>9ADB08741CE8CC980008354D</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>887362F6369561BB0FA84D5D</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>INFOPLIST_FILE</key>
+				<string>testRealm2Tests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>jp.co.ikkitakahashi.testRealm2Tests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/testRealm2.app/testRealm2</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>9ADB08751CE8CC980008354D</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>FCAE7F2F1C9C5F4A036DE590</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>INFOPLIST_FILE</key>
+				<string>testRealm2Tests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>jp.co.ikkitakahashi.testRealm2Tests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/testRealm2.app/testRealm2</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>9ADB08761CE8CC980008354D</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>9ADB08771CE8CC980008354D</string>
+				<string>9ADB08781CE8CC980008354D</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>9ADB08771CE8CC980008354D</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>INFOPLIST_FILE</key>
+				<string>testRealm2UITests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>jp.co.ikkitakahashi.testRealm2UITests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_TARGET_NAME</key>
+				<string>testRealm2</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>9ADB08781CE8CC980008354D</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>INFOPLIST_FILE</key>
+				<string>testRealm2UITests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>jp.co.ikkitakahashi.testRealm2UITests</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_TARGET_NAME</key>
+				<string>testRealm2</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>A17328D169D4C29106AE1CF6</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>25D1B60F891B81DB8861F3A6</string>
+				<string>422F467118CF02E93EC0D5B4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>ABB049FD41335C9559913FF2</key>
+		<dict>
+			<key>fileRef</key>
+			<string>422F467118CF02E93EC0D5B4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>CAB953F8659A493AAD6666D1</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Embed Pods Frameworks</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-testRealm2Tests/Pods-testRealm2Tests-frameworks.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>E7490A76753761A465D26FEF</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>4FCF58C67BAD2C9E4E16CAEE</string>
+				<string>7BF2D7321D01BE70889AB40A</string>
+				<string>887362F6369561BB0FA84D5D</string>
+				<string>FCAE7F2F1C9C5F4A036DE590</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EE4C082D19A18EC2B4CC47C1</key>
+		<dict>
+			<key>fileRef</key>
+			<string>25D1B60F891B81DB8861F3A6</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F606C68E72E1D2AE705F0C85</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>FCAE7F2F1C9C5F4A036DE590</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-testRealm2Tests.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-testRealm2Tests/Pods-testRealm2Tests.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>9ADB083E1CE8CC980008354D</string>
+</dict>
+</plist>
